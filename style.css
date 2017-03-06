@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image: ;
+}
+p {
+    text-indent: 50px;
+}
+a:visited {
+	color: #DDBB45;
+	text-decoration: none;
+}
+a:link {
+	color: #DDBB45;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #D0A934;
+	height: 100%;
+}
+.ospace{
+	width:auto;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	height: 40%;
+	padding-left: 30px;
+	font-size: 25px;
+}
+.obox{
+	text-align:left;
+	vertical-align: middle;
+	color: #fff;
+	height: 60%;
+	font-family: georgia;
+	font-size: 36px;
+}
+.selected{
+	background-image: url(images/selected.jpg);
+	background-size: 100% 100%;
+	display: inline-block;
+	color: #FFFFFF;
+	height: 100%;
+	z-index: 50;
+	padding-left: 10px;
+	padding-right: 10px;
+	vertical-align: bottom;
+}
+.notselected{
+	height: 100%;
+	z-index: 50;
+	display: inline-block;
+	vertical-align: bottom;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100px;
+	width: 100%;
+	z-index: 10;
+	font-family: arial;
+	background-color: #8B2B2D;
+	background-attachment: scroll;
+	background-image: url(images/overlaybg.jpg);
+	background-size: 100% 100%;
+	background-repeat: repeat-x;
+	background-position: left;
+	border-bottom: thin solid #000;
+	vertical-align: middle;
+}
+.bgdesign{
+	background-image: url(images/bgdesign.png);
+	background-size: 100% 100%;
+	z-index: 0;
+	width: 55%;
+	height: 75%;
+	position: absolute;
+	left: 0;
+	top: 65;
+}
+.container{
+	position: absolute;
+	text-align: left;
+	padding: 20px;
+	left: 5%;
+	top: 15%;
+	width: 85%;
+}
+.title{
+	display: inline-block;
+	width: auto;
+	font-family: verdana;
+	font-size: 40px;
+	font-weight: bold;
+	background-image: url(images/titlebg.png);
+	background-size: 100% 100%;
+	padding: 20px;
+	text-align: center;
+}
+.subtitle{
+	display: inline-block;
+	width: auto;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.content{
+	font-family: verdana;
+	font-size: 20;
+	padding-bottom: 50px;
+}
+.textbox{
+	display:inline-block;
+	width:44%;
+	padding-left: 45px;
+	vertical-align: top;
+}
+.ul{
+	text-decoration: underline;
+}
