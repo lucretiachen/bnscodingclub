@@ -123,6 +123,9 @@ a:hover {
 	padding-left: 45px;
 	vertical-align: top;
 }
+.description{
+	font-size: 30px;
+}
 .ul{
 	text-decoration: underline;
 }
