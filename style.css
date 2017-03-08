@@ -125,6 +125,7 @@ a:hover {
 }
 .description{
 	font-size: 30px;
+	text-indent: 50px;
 }
 .ul{
 	text-decoration: underline;
